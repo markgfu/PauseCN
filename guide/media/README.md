@@ -1,14 +1,16 @@
 # 首页演示素材
 
-这两段 GIF 是简化交互流程示意，不是实机录屏或自动化测试证据。所有背景、记忆、数字、应用选择与 AI 文字均为虚构示例，不来自手机记录，也没有为制作素材调用 AI API。
+`ai-reminder.gif` 和 `ai-report.gif` 是简化交互流程示意，不是实机录屏或自动化测试证据。其中背景、记忆、数字、应用选择与 AI 文字均为虚构示例，不来自手机记录，也没有为制作素材调用 AI API。
 
 - `ai-reminder.gif`：背景与偏好、按授权预生成、下次停顿。
 - `ai-report.gif`：本地热力图、AI 解读、分享已有解读。
 - 同名 PNG：不播放动画的静态示意。
 
+另新增 `emulator-pause.gif` 和 `emulator-pause.png`，来自 alpha40 在独立 Android 16 模拟器中的实际录屏。它们不是上述生成器绘制的画面，也没有替换原有素材。实际录屏只覆盖 Chrome 的停顿与倒计时；没有 AI 请求或真实用户数据。环境与未响应限制见[录制说明](../EMULATOR_RECORDING.md)。
+
 颜色采用应用的 Paper / Ink / Sage 配色。画面中的布局为介绍用途简化，实际控件与文案以 APK 为准。AI 示例不代表真实模型必定产生相同内容。
 
-使用 Pillow 和本机合法可用的中文字体重新生成：
+仅重新生成上述两段流程示意，使用 Pillow 和本机合法可用的中文字体：
 
 ```sh
 python -m pip install Pillow

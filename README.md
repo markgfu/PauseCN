@@ -21,6 +21,18 @@ Android 10+。Releases 中提供的是 **Debug APK / Pre-release**，不是正�
 
 这里介绍的是 PauseCN 自身的功能重点，不是与 one sec 当前版本的完整功能对比。不开 AI，基础停顿与本地记录仍可使用。
 
+## 实际运行：Android 模拟器录屏
+
+下面新增的是 **alpha40 APK 在 Android 16 模拟器中的实际画面**，不是重绘界面。约 10 秒，展示打开 Chrome 后的停顿、呼吸提示和倒计时结束状态。原来的两段 AI 流程示意仍保留在下一节。
+
+<p align="center">
+  <img src="guide/media/emulator-pause.gif" width="360" alt="Android 16 模拟器实际录屏：打开 Chrome 后显示停一下的呼吸提示，倒计时结束后可选择继续。AI 未启用。">
+</p>
+
+[观看或下载 MP4](https://github.com/markgfu/PauseCN/releases/download/v0.2.0-alpha40-dev/pausecn-emulator-alpha40.mp4) · [静态画面](guide/media/emulator-pause.png) · [录制范围与限制](guide/EMULATOR_RECORDING.md)
+
+这是独立模拟器中的局部录屏，未使用实体手机数据，未填写 Key 或调用 AI。受录制环境影响帧率较低；完整导航尝试中出现过系统及应用未响应，原因尚未定位，因此没有把它当作完整流程或稳定性验收。没有加速倒计时、插帧或替换屏幕内容。
+
 ## 效果演示
 
 以下动图为依据现有功能制作的**简化流程示意**，不是实机录屏；界面、数字、背景、记忆和 AI 文字均为演示内容，不含真实用户记录。实际布局以 APK 为准，示例不保证每次生成效果。
