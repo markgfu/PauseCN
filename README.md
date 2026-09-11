@@ -103,6 +103,15 @@ Release 签名和公开发行元数据通过构建文件中的 `PAUSECN_*` 环�
 
 API 请求可能收费，包括部分失败、取消或超时情况。本应用没有每日生成总数或费用硬上限；启用个性化预生成后，真实选择可能自动为下次准备短句。请自行关注 API 账户用量。
 
+## Contributors / 贡献者
+
+- [markgfu](https://github.com/markgfu)：项目发起与维护、产品方向、使用反馈和真机体验确认。
+- [Codex（OpenAI）](https://github.com/openai/codex)：AI 开发协作，参与方案讨论、代码实现与审查、检查脚本、文档及演示素材制作。
+
+Codex 的署名表示 AI 工具参与开发，不代表 OpenAI 官方维护、背书或安全认证。项目的发布与维护仍由维护者负责。
+
+从本次提交起，对 Codex 实际参与的提交保留共同作者署名。前期贡献在此说明，不改写已发布的提交或 Release 标签。[查看 GitHub 自动统计](https://github.com/markgfu/PauseCN/graphs/contributors)；该列表与这里的贡献说明不同，账号关联和展示由 GitHub 决定。
+
 ## 已知限制
 
 - 当前主要在单台 Android 16 真机验证，未覆盖各品牌 ROM；最低版本支持不等于所有设备已实测。
