@@ -1,0 +1,35 @@
+*.iml
+.gradle/
+.idea/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+gov_rules_output/
+*.jks
+*.keystore
+
+# Local development history, device evidence and distribution bundles
+.kotlin/
+/deliverables/
+/ANDROID_CHINA_SOLUTION.md
+/docs/*
+!/docs/DEPENDENCY_INVENTORY.md
+!/docs/LICENSE_INVENTORY.json
+!/docs/SBOM.cdx.json
+!/docs/OSV_SCAN_LATEST.json
+
+# Credentials and private exports
+.env
+.env.*
+*.apk
+*.aab
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.hprof
+*.pem
+*.p12

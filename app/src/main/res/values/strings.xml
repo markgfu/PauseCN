@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">停一下</string>
+    <string name="accessibility_service_label">停一下 · 打开前干预</string>
+    <string name="accessibility_service_description">检测你选择的应用何时进入前台；有限检测来电、相机等安全界面只为立即撤下停顿层。不会读取或上传聊天、输入和页面正文。</string>
+    <string name="wait_more_seconds">再等 %1$d 秒</string>
+</resources>

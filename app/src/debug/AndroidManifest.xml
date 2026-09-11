@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <receiver
+            android:name="app.pausecn.debug.DebugProbeReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="app.pausecn.debug.SEED_SAFETY_SCENARIO" />
+                <action android:name="app.pausecn.debug.SNAPSHOT_SAFETY_SCENARIO" />
+                <action android:name="app.pausecn.debug.PREPARE_STRESS_ITERATION" />
+                <action android:name="app.pausecn.debug.DISMISS_STRESS_OVERLAY" />
+                <action android:name="app.pausecn.debug.RESET_SAFETY_SCENARIO" />
+                <action android:name="app.pausecn.debug.INJECT_SETTINGS_FAILURE" />
+                <action android:name="app.pausecn.debug.RESTORE_SETTINGS_HEALTH" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

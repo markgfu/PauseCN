@@ -1,0 +1,2 @@
+-keep class app.pausecn.accessibility.PauseAccessibilityService { *; }
+-keep class * extends androidx.room.RoomDatabase

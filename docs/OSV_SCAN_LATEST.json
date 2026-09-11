@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "source": "https://api.osv.dev/v1/querybatch",
+  "scannedAtUtc": "2026-09-01T04:27:28.6413819Z",
+  "sbomSha256": "8bdfce419c0f2c2f923d5c951ca5dfd44c9a979a65dde9ea70e41154b283b853",
+  "bomSerialNumber": "urn:uuid:5aaa61a7-36d3-599c-9d64-a6fb94497195",
+  "componentCount": 134,
+  "affectedComponentCount": 0,
+  "vulnerabilityRecordCount": 0,
+  "findings": []
+}
+
